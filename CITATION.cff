@@ -4,7 +4,7 @@ authors:
   - family-names: "Płodzień"
     given-names: "Marcin"
     orcid: "https://orcid.org/0000-0002-0835-1644"
-title: "Many-body Bell correlations in mixed Graph States"
+title: "Codes for many-body Bell correlations in mixed Graph States"
 version: 1.0.0
 date-released: 2025-12-01
 url: "https://github.com/MarcinPlodzien/Many-body-Bell-correlations-in-mixed-Graph-States"
