@@ -42,7 +42,7 @@ The **Bell correlator** has been defined and used in the following papers (among
 
 ## Numerical Methodologies
 
-This project implements three solvers for the simulation of noisy quantum evolution.
+This project implements three solvers for the simulation of noisy quantum evolution. The framework relies on **JAX** for Just-In-Time (JIT) compilation and Automatic Differentiation (AD) to optimize the variational parameters $\vec{\theta}$.
 
 ### 1. Exact Density Matrix (DM)
 
@@ -70,11 +70,6 @@ This project implements three solvers for the simulation of noisy quantum evolut
 
 * **Computational Complexity**: Memory scales as $O(2^N)$. This allows for the simulation of significantly larger systems ($N \approx 20-30$) compared to the DM approach, subject to statistical sampling error $\propto 1/\sqrt{M}$.
 
-
-
-## Engine
-
-The framework relies on **JAX** for Just-In-Time (JIT) compilation and Automatic Differentiation (AD) to optimize the variational parameters $\vec{\theta}$.
 
 ## Simulation & Usage
 
