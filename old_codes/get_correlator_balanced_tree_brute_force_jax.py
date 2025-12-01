@@ -281,9 +281,6 @@ def main():
     nx.draw(graph, with_labels=True, node_color="lightblue", ax=ax_final)
     plt.show()
 
-    # -------------------------------------------------------------------------
-    # 6. Example: large balanced tree drawing 
-    # -------------------------------------------------------------------------
     try:
         G = nx.balanced_tree(3, 10)
         pos = nx.nx_agraph.graphviz_layout(G, prog="twopi", args="")
