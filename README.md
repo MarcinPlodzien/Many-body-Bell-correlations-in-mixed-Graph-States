@@ -7,11 +7,11 @@ This repository implements a high-performance numerical framework to study **man
 The core physical problem addresses the robustness of multipartite entanglement in mixed states. We consider a graph state $\rho_G$ subjected to a quantum noise channel $\Lambda$. The objective is to maximize the expectation value $\mathcal{E}$ of a many-body Bell correlator. The optimization problem is defined as:
 
 $$
-\mathcal{E} = \max_{\vec{\theta}} \left| \mathrm{Tr}[\Lambda(\rho_G) \cdot \mathcal{B}(\vec{\theta})] \right|^2
+{\cal E} = \max_{\vec{\theta}} \left| \mathrm{Tr}[\Lambda(\rho_G) \cdot \mathcal{B}(\vec{\theta})] \right|^2
 $$
 
 $$
-Q = \log_2(\mathcal{E}) + N
+Q = \log_2({\cal E}) + N
 $$
 
 Where:
